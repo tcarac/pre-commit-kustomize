@@ -1,7 +1,7 @@
-# pre-commit-docker-kustomize
+# pre-commit-kustomize
 pre-commit hook which runs kustomize and kubeconform. It requires both executables to be available in path.
 
-## Example of .pre-commit-config.yaml that verifies that 3 overlays are not broken
+## Example of .pre-commit-config.yaml that verifies kustomize files in a monorepo
 ```yaml
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
