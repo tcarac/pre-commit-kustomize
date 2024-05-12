@@ -40,4 +40,7 @@ jobs:
         kustomize: 5.4.1
         kubeconform: 0.6.6
     - uses: pre-commit/action@v3.0.1
+      with:
+        extra_args: kustomize --all-files
+
 ```
