@@ -4,5 +4,5 @@
     entry: validate-kustomization.sh
     language: script
     types: [yaml]
-    always_run: true
-    pass_filenames: false
+    always_run: false
+    pass_filenames: true
