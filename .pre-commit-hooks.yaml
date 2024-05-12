@@ -1,0 +1,8 @@
+-   id: kustomize
+    name: Validate Kustomizations
+    description: kustomize provided by docker
+    entry: validate-kustomization.sh
+    language: script
+    types: [yaml]
+    always_run: true
+    pass_filenames: false
